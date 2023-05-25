@@ -38,7 +38,7 @@ public class SuperMarketApplication {
 		};
 	}
 
-	//Method to save new product in table
+	//Method to save new product details in table
 	private void createProduct(ProductDAOInterface productDAOInt) {
 		String code, name, brand, category;
 		int quantity;
@@ -67,6 +67,7 @@ public class SuperMarketApplication {
 		System.out.println("The list of Products\n"+theProductList);
 	}
 
+	//Method to find all product list from table by Name
 
 	private void findAllByName(ProductDAOInterface productDAOInt) {
 		System.out.println("Enter the name:");
